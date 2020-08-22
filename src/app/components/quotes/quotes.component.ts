@@ -21,4 +21,12 @@ export class QuotesComponent implements OnInit {
   deleteQuote (quote:Quote){
     this.quotes = this.quotes.filter(q => q.id !== quote.id);
   }
+
+  addQuote (quote:Quote){
+    this.quoteService.addQuote(quote).subscribe(quote =>{
+      this.quotes.push(quote);
+    }
+
+    );
+  }
 }
