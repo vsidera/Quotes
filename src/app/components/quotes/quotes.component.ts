@@ -13,7 +13,9 @@ export class QuotesComponent implements OnInit {
   constructor(private quoteService:QuoteService) { }
 
   ngOnInit(): void {
-      this.quotes = this.quoteService.getQuotes();
+      this.quoteService.getQuotes().subscribe( quotes => {
+        this.quotes = quotes;
+      });
   
   }
 

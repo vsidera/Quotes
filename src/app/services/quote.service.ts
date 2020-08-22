@@ -1,29 +1,17 @@
 import { Injectable } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
+import { Quote } from '../models/Quote';
 @Injectable({
   providedIn: 'root'
 })
 export class QuoteService {
 
-  constructor() { }
+  quotesUrl: string='https://jsonplaceholder.typicode.com/posts';
+  constructor(private http: HttpClient) { }
 
-  getQuotes(){
-    return [
-      {
-        id: 1,
-        title: 'Quote one',
-        body: 'Hello world'
-      },
-      {
-        id: 1,
-        title: 'Quote two',
-        body: 'Hello kenya'
-      },
-      {
-        id: 1,
-        title: 'Quote three',
-        body: 'Hello nairobi'
-      }
-    ]
+  getQuotes():Observable<Quote[]>{
+    return this.http.get<Quote[]>(this.quotesUrl);
   }
 }
