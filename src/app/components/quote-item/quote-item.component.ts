@@ -14,5 +14,11 @@ export class QuoteItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onDelete (Quote){
+    console.log('delete');
+    
+   }
 
 }
+
+

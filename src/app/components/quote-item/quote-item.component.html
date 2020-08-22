@@ -3,8 +3,9 @@
     <p> 
         <input type="checkbox"/>
         
-        {{quote.title}}
+        {{quote.title}} <br>
+        {{quote.body}}
 
-        <button class="del">X</button>
+        <button (click)="onDelete(quote)" class="del">X</button>
     </p>
 </div>
