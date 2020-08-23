@@ -10,6 +10,15 @@ export class QuoteItemComponent implements OnInit {
   @Input () quote:Quote;
   @Output () deleteQuote: EventEmitter<Quote> = new EventEmitter ();
 
+  numberOfVotes: number =0;
+
+  upVoteClick(){
+    this.numberOfVotes++;
+  }
+  downVoteClick(){
+    this.numberOfVotes--;
+  }
+
   constructor() { }
 
 

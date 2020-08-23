@@ -1,4 +1,6 @@
-
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 <div class="card">
 <div class="quote">
     
@@ -9,6 +11,12 @@
         <p> <b> Orator : </b> <i> {{quote.author}} </i>
          
         <b>submitted by : </b> <i> {{quote.title}} </i>
+          <br>
+
+        {{ numberOfVotes }}
+
+        <button (click)="upVoteClick()">Upvote</button>
+        <button (click)="downVoteClick()">Downvote</button>
 
          <button (click)="onDelete(quote)" class="del">trash</button>
         </p>
