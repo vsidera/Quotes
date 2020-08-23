@@ -34,7 +34,7 @@ input[type=text], select {
     transition: 0.3s;
     width: 80%;
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
   .card:hover {
