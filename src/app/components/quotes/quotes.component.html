@@ -1,8 +1,18 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-5">
+
 <app-add-quote (addQuote)= "addQuote($event)"></app-add-quote>
+
+</div>
+
+<div class="col-md-7">
 <app-quote-item 
 *ngFor ="let quote of quotes"
 [quote]="quote"
 (deleteQuote)= "deleteQuote($event)"
-
 >
 </app-quote-item>
+</div>
+</div>
+</div>
