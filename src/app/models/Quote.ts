@@ -1,5 +1,7 @@
 export class Quote{
-    id:string;
+    id:number;
     title:string;
+    author:string;
     body:string;
+    
 }

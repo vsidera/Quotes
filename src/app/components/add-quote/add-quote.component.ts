@@ -10,7 +10,7 @@ export class AddQuoteComponent implements OnInit {
        @Output() addQuote: EventEmitter<any> = new EventEmitter();
 
   title: string;
-  id: string;
+  author: string;
   body: string;
 
   constructor() { }
@@ -20,6 +20,7 @@ export class AddQuoteComponent implements OnInit {
   onSubmit(){
     const quote ={
       title: this.title,
+      author: this.author,
       body: this.body
 
     }
