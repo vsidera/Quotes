@@ -16,7 +16,7 @@ const httpOptions = {
 export class QuoteService {
 
   quotesUrl: string='http://localhost:3000/posts';
-  quotesLimit = '?_limit=5'
+  quotesLimit = '?_limit=3'
 
   constructor(private http: HttpClient) { }
 

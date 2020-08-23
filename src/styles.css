@@ -1,8 +1,10 @@
-.btn{
+@import "~bootstrap/dist/css/bootstrap.css"
+
+/* .btn{
     display: inline-block;
     border: none;
     background: #555;
     color: #fff;
     padding: 7px 20px;
     cursor: pointers;
-}
+} */
