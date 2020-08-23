@@ -15,8 +15,9 @@
 
         {{ numberOfVotes }}
 
-        <button (click)="upVoteClick()">Upvote</button>
-        <button (click)="downVoteClick()">Downvote</button>
+        <button class="btnUpVote" (click)="upVoteClick()" >Yes</button>
+        <button class="btnDownVote" (click)="downVoteClick()">No</button>
+        
 
          <button (click)="onDelete(quote)" class="del">trash</button>
         </p>

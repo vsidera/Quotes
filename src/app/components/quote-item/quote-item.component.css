@@ -1,23 +1,42 @@
+.btnUpVote{
+  background-color: #259319 ;
+  border-radius: 20px;
+  margin: 10px;
+  border: none;
+  color: white;
+}
+
+.btnDownVote{
+  background-color: #DE2838;
+  border-radius: 20px;
+  margin: 10px;
+  border: none;
+  color: white;
+}
+
+
 .del {
     background-color: #DE2838;
     border: none;
     color: white;
     padding: 5px 9px;
-    border-radius: 50%;
+    border-radius: 5px;
     cursor: pointer;
     float: right;
   }
 
   .quote {
-      background: #f4f4f4;
+      background: white;
       padding: 10px;
       border-bottom: 1px #ccc dotted;
+      opacity: 90%;
   }
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 90%;
+    font-family: cursive;
   }
   
   .card:hover {
