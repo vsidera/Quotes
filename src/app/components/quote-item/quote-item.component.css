@@ -4,6 +4,7 @@
   margin: 10px;
   border: none;
   color: white;
+  border-color: white;
 }
 
 .btnDownVote{
@@ -12,6 +13,7 @@
   margin: 10px;
   border: none;
   color: white;
+  border-color: white;
 }
 
 
@@ -25,18 +27,19 @@
     float: right;
   }
 
-  .quote {
+  /* .quote {
       background: white;
       padding: 10px;
       border-bottom: 1px #ccc dotted;
       opacity: 90%;
-  }
+  } */
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 90%;
     font-family: cursive;
+    padding: 10px;
   }
   
   .card:hover {
