@@ -1,8 +1,9 @@
 .item{
     font-size: 16px;
     padding-top: 30px;
+    
 }
 
 .container-fluid{
-    background: url(/assets/images/martin.jpeg) no-repeat center center fixed;
+    background: url(/assets/images/back1.jpg) center center fixed;
 }
