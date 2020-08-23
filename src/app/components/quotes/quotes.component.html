@@ -7,12 +7,15 @@
 </div>
 
 <div class="col-md-7">
+    <div class="item">
 <app-quote-item 
 *ngFor ="let quote of quotes"
 [quote]="quote"
 (deleteQuote)= "deleteQuote($event)"
 >
 </app-quote-item>
+<hr>
+</div>
 </div>
 </div>
 </div>
