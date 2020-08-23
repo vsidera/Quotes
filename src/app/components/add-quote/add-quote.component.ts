@@ -10,6 +10,7 @@ export class AddQuoteComponent implements OnInit {
        @Output() addQuote: EventEmitter<any> = new EventEmitter();
 
   title: string;
+  id: string;
   body: string;
 
   constructor() { }

@@ -15,7 +15,7 @@ const httpOptions = {
 })
 export class QuoteService {
 
-  quotesUrl: string='https://jsonplaceholder.typicode.com/posts';
+  quotesUrl: string='http://localhost:3000/posts';
   quotesLimit = '?_limit=5'
 
   constructor(private http: HttpClient) { }
