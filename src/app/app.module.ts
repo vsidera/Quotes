@@ -10,6 +10,7 @@ import { QuoteItemComponent } from './components/quote-item/quote-item.component
 import { HeaderComponent } from './components/layout/header/header.component';
 import { AddQuoteComponent } from './components/add-quote/add-quote.component';
 import { AboutComponent } from './components/pages/about/about.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -20,7 +21,8 @@ import { AboutComponent } from './components/pages/about/about.component';
     QuoteItemComponent,
     HeaderComponent,
     AddQuoteComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

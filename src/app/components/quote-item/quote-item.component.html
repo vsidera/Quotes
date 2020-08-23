@@ -1,14 +1,19 @@
 
 <div class="card">
 <div class="quote">
-    <p> 
+    
         <!-- <input type="checkbox"/> -->
-        
-        {{quote.title}} <br>
-        {{quote.author}} <br>
-        {{quote.body}}
 
-        <button (click)="onDelete(quote)" class="del">X</button>
-    </p>
+        <h5>{{quote.body}}</h5>
+        <br>
+        <p> <b> Orator : </b> <i> {{quote.author}} </i>
+         
+        <b>submitted by : </b> <i> {{quote.title}} </i>
+
+         <button (click)="onDelete(quote)" class="del">trash</button>
+        </p>
+        
+        
+    
 </div>
 </div>
