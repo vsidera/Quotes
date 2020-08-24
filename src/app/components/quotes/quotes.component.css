@@ -5,7 +5,7 @@
 }
 
 .container-fluid{
-    background-image: url(/assets/images/back1.jpg);
+    background-image: url(../../../assets/back1.jpg);
     background-attachment: fixed;  
     
 }
