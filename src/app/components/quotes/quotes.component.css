@@ -5,6 +5,6 @@
 }
 
 .container-fluid{
-    background: url(/../assets/images/back1.jpg) center center fixed;
+    background-image: url(/assets/images/back1.jpg); 
     
 }
