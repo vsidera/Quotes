@@ -2,6 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 Users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+This is the link to the live page: https://vsidera.github.io/Quotes/
 
 ## Development server
 
